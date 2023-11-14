@@ -1,0 +1,17 @@
+*, *::before, *::after { 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: right;
+    padding: 0%;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    gap: 10px;
+    padding: 10px;
+}
